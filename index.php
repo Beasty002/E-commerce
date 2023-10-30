@@ -19,7 +19,7 @@
 
         <!-- ----------------Nav bar-------------------- -->
 
-        <nav class="navbar navbar-expand-lg bg-info">
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
             <div class="container-fluid">
                 <img src="images/logo.png" class="logo" alt="">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -63,10 +63,161 @@
 
 
 
+        <!-- --------------------Welcome--------------------- -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Welcome-Guest</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <!-- --------------------info and products--------------------- -->
+        <div class="bg-light">
+            <h3 class="text-center">Kiraanaa</h3>
+            <p class="text-center">Welcome to the amazing store of the legend</p>
+        </div>
+        <div class="row">
+            <div class="col-md-10">
+                <!-- products -->
+                <div class="row">
+                    <div class="col-md-4 mb-2">
+                        <div class="card">
+                            <img src="./images/strawberry.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                                <a href="#" class="btn btn-secondary">View more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="card">
+                            <img src="./images/mango.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                                <a href="#" class="btn btn-secondary">View more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-2">
+                        <div class="card">
+                            <img src="./images/orange.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                                <a href="#" class="btn btn-secondary">View more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./images/mango.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                                <a href="#" class="btn btn-secondary">View more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./images/mango.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                                <a href="#" class="btn btn-secondary">View more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./images/mango.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                                <a href="#" class="btn btn-secondary">View more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2 bg-secondary p-0">
+                <!-- side nav -->
+                <ul class="navbar-nav me-auto  text-center">
+                    <!-- --------------------------Brands to display---------------------------------- -->
+                    <li class="nav-item bg-info">
+                        <a href="" class="nav-link text-light">
+                            <h4>Delivery brands</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link text-light">Brand1</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link text-light">Brand2</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link text-light">Brand3</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link text-light">Brand4</a>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav me-auto  text-center">
+                    <!-- --------------------------Brands to display---------------------------------- -->
+                    <li class="nav-item bg-info">
+                        <a href="" class="nav-link text-light">
+                            <h4>Categories here</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link text-light">Categories1</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link text-light">Categories2</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link text-light">Categories3</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link text-light">Categories4</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+
+
+
+
+
         <!-- -------------------Footer----------------------- -->
-        <!-- <div class="bg-info p-3 text-center">
+        <div class="bg-info p-3 text-center mt-4">
             <p>All rights reserverd by beasty @2020</p>
-        </div> -->
+        </div>
     </div>
 
 
