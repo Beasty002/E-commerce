@@ -16,6 +16,9 @@
 <body>
 
     <div class="container-fluid p-0">
+
+        <!-- ----------------Nav bar-------------------- -->
+
         <nav class="navbar navbar-expand-lg bg-info">
             <div class="container-fluid">
                 <img src="images/logo.png" class="logo" alt="">
@@ -57,7 +60,16 @@
                 </div>
             </div>
         </nav>
+
+
+
+        <!-- -------------------Footer----------------------- -->
+        <!-- <div class="bg-info p-3 text-center">
+            <p>All rights reserverd by beasty @2020</p>
+        </div> -->
     </div>
+
+
 
 
 
